@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 150px;
+    height: 70px;
+    padding-left: 40px;
+}
+.text{
+    float: left;
+    margin-top: 120px;
+    margin-left: 50px;
+    line-height: 44px;
+    margin-bottom: 225px;
+    font-size: 20px;
+}
+.bg{
+    float: right;
+    width: 52%;
+}
+.cards{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 295px;
+    margin: auto;
+    row-gap: 27px;
+    column-gap: 47px;
+}
+.image img{
+    height: 500px;
+    width: 295px;
+    border-radius:10px;
+}
+.name{
+    margin-top: 5px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #8a3ab9;
+    color: white;
+  }
+
+  
+.s{
+    margin-top:14px ;
+}
+
+
+.s:hover {
+    box-shadow: 0 20px 35px 0 rgba(0,0,0,.15),0 5px 9px 0 rgba(0,0,0,.05);
+    transition: all 0.2s ease-out;
+    background-color: rgb(250, 245, 245);
+    transform: scale(1.04);
+}
+  .footer{
+    text-align: center;
+    margin: 14px;
+}
+.footer-line{
+    height:0.5px;
+}
+.deco{
+    text-decoration: none;
+}
+@media  (max-width:300px){
+    .cards{
+  display: block;
+  margin: 0 auto;
+  
+    }
+    .bg{
+        display: none;
+    }
+    .name{
+        margin-top: 5px;
+        display: inline;
+    }
+}
+@media (min-width:300px) and (max-width:768px){
+    .cards{
+      display: block;
+      margin:0 auto;
+      } 
+        .bg{
+            display: none;
+        }
+        .name{
+            display: inline;
+        }
+}
+@media (min-width:769px) and (max-width:1045px){
+    .cards{
+        display:grid;
+        grid-template-columns:1fr 1fr ;
+        margin: 85px;
+        
+    }
+    .bg{
+      display: none;
+    }
+    .text{
+      float: none;
+      margin: 85px;
+    }
+}    
+ 
+  
+
+
+
+
+
+     
+
