@@ -145,7 +145,7 @@ html {
         grid-template-columns:1fr 1fr 1fr;
     } 
     .text{
-        width: 63rem;
+        width: 40rem;
     }
 }           
 @media (min-width:1501px) and (max-width:2000px){
