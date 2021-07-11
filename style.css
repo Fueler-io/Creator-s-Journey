@@ -151,8 +151,8 @@ html {
 @media (min-width:1501px) and (max-width:2000px){
     .cards{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         padding-top: 44rem;
         justify-content: center;
     } 
-}          
+}
